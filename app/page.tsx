@@ -19,8 +19,6 @@ export default function HomePage() {
             I&apos;m a masters student at UC Berkeley, advised by{' '}
             <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
             I work on robot foundation models and the question of what makes embodied systems intelligent.
-            Feel free to reach out at{' '}
-            <ObfuscatedEmail user="pro" domain="berkeley.edu" style={{ color: '#16243A' }} />.
           </p>
         </div>
       </div>
@@ -61,6 +59,19 @@ export default function HomePage() {
             )}
           </div>
         ))}
+      </div>
+
+      {/* Contact */}
+      <div id="contact">
+        <div id="contact-upper">
+          <p>Contact</p>
+        </div>
+        <div id="contact-lower">
+          <p>
+            Feel free to reach out at{' '}
+            <ObfuscatedEmail user="pro" domain="berkeley.edu" style={{ color: 'var(--gold)', fontWeight: 700 }} />.
+          </p>
+        </div>
       </div>
     </>
   )

@@ -5,7 +5,7 @@ export default function NavBar() {
     <nav>
       <div id="div-upper">
         <Link href="/"><img src="/images/logo.png" alt="Alex Proshkin" style={{ cursor: 'pointer' }} /></Link>
-        <Link href="/">Alex<br />Pro<span style={{ color: 'var(--gold)' }}>shkin</span></Link>
+        <Link href="/">Alex<span style={{ color: 'var(--gold)' }}>ander</span><br />Pro<span style={{ color: 'var(--gold)' }}>shkin</span></Link>
       </div>
       <div id="div-lower">
         <div className="div-left" />
