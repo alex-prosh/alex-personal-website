@@ -1,0 +1,15 @@
+---
+title: Why contact-rich manipulation is still an open problem
+date: 2026-05-01
+tags: [manipulation, planning]
+---
+
+Contact-rich manipulation — grasping, inserting, pivoting, sliding — remains one of the hardest problems in robotics. Here's why.
+
+## The core difficulty
+
+When a robot finger touches an object, the contact geometry changes discontinuously. This makes differentiating through contact hard, which breaks most gradient-based planners.
+
+## Current approaches
+
+Three main families of approaches exist today...
