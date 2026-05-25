@@ -2,6 +2,9 @@ export interface Project {
   title: string
   description: string
   tag: string
+  type?: string
+  year?: number
+  venue?: string
   links: {
     paper?: string
     demo?: string

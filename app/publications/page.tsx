@@ -10,13 +10,11 @@ export default function PublicationsPage() {
   )
 
   return (
-    <div className="mx-auto max-w-3xl px-6 pt-14 pb-20">
-      <h1 className="text-2xl font-semibold tracking-tight mb-10">Publications</h1>
+    <div className="mx-auto max-w-5xl px-8 pt-12 pb-20">
+      <h1 className="text-xl font-semibold mb-10">Publications</h1>
       {years.map((year) => (
         <div key={year} className="mb-10">
-          <p className="text-[10px] tracking-widest uppercase text-accent font-semibold mb-4">
-            {year}
-          </p>
+          <p className="text-sm font-semibold text-muted mb-4">{year}</p>
           {publications
             .filter((p) => p.year === year)
             .map((pub) => (

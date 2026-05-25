@@ -6,12 +6,12 @@ export const metadata: Metadata = { title: 'Research · Alex Pro' }
 
 export default function ResearchPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 pt-14 pb-20">
-      <h1 className="text-2xl font-semibold tracking-tight mb-2">Research</h1>
+    <div className="mx-auto max-w-5xl px-8 pt-12 pb-20">
+      <h1 className="text-xl font-semibold mb-1">Research</h1>
       <p className="text-sm text-muted mb-10">
-        Projects in perception, planning, and learning-based control.
+        Perception, planning, and learning-based control for robotics.
       </p>
-      <div className="flex flex-col gap-4">
+      <div>
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}

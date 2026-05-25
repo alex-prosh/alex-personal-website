@@ -23,7 +23,7 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound()
 
   return (
-    <div className="mx-auto max-w-2xl px-6 pt-14 pb-20">
+    <div className="mx-auto max-w-2xl px-8 pt-12 pb-20">
       <p className="text-xs text-muted mb-3">
         {new Date(post.meta.date).toLocaleDateString('en-US', {
           month: 'long',

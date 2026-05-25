@@ -5,10 +5,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: '#fafaf7',
-        accent: '#b07d4a',
-        muted: '#7a6a55',
-        border: '#e8e4dc',
+        background: '#FFF5E9',
+        foreground: '#000000',
+        accent: '#AE5741',
+        muted: '#666666',
+        border: '#000000',
+      },
+      fontFamily: {
+        sans: ['var(--font-nanum)', 'serif'],
+        mono: ['var(--font-mono)', 'monospace'],
       },
     },
   },
