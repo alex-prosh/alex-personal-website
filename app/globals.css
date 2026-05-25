@@ -316,7 +316,28 @@ nav { width: 100%; }
 }
 
 /* ── Contact ── */
-#contact { width: 100%; }
+#contact-hero {
+  width: 100%;
+  height: calc(100vh - 185px);
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 12px 24px rgba(0,0,0,0.18);
+}
+
+#contact-hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 70%;
+  display: block;
+}
+
+#contact {
+  width: 100%;
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+}
 
 #contact-upper {
   font-size: 14px;
@@ -337,14 +358,15 @@ nav { width: 100%; }
 }
 
 #contact-lower {
-  font-size: 36px;
+  font-size: 24px;
   width: 100%;
   background-color: #F7F3EB;
   border-bottom: 2px solid var(--crimson);
+  padding: 12px 0;
 }
 
 #contact-lower p {
-  margin: 12px min(14%, 200px);
+  margin: 0 min(14%, 200px);
 }
 
 /* ── Footer ── */

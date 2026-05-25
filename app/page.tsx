@@ -1,5 +1,4 @@
 import { projects } from '@/content/research'
-import ObfuscatedEmail from '@/components/ObfuscatedEmail'
 
 export default function HomePage() {
   return (
@@ -19,6 +18,9 @@ export default function HomePage() {
             I&apos;m a masters student at UC Berkeley, advised by{' '}
             <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
             I work on robot foundation models and the question of what makes embodied systems intelligent.
+            Incoming Research Scientist at{' '}
+            <a href="https://www.gsi.company" target="_blank" rel="noopener noreferrer">Grounded Superintelligence</a>{' '}
+            this summer.
           </p>
         </div>
       </div>
@@ -61,18 +63,6 @@ export default function HomePage() {
         ))}
       </div>
 
-      {/* Contact */}
-      <div id="contact">
-        <div id="contact-upper">
-          <p>Contact</p>
-        </div>
-        <div id="contact-lower">
-          <p>
-            Feel free to reach out at{' '}
-            <ObfuscatedEmail user="pro" domain="berkeley.edu" style={{ color: 'var(--gold)', fontWeight: 700 }} />.
-          </p>
-        </div>
-      </div>
     </>
   )
 }

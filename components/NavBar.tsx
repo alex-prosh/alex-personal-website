@@ -12,6 +12,7 @@ export default function NavBar() {
         <div className="div-right">
           <div className="nav-item"><Link href="/">Home</Link></div>
           <div className="nav-item"><Link href="/cv">CV</Link></div>
+          <div className="nav-item"><Link href="/contact">Contact</Link></div>
           <div className="nav-item nav-highlight"><Link href="/blog">Writing</Link></div>
         </div>
       </div>
