@@ -27,7 +27,7 @@ export default function HomePage() {
 
       {/* Past Work */}
       <div id="work">
-        <h1>Past Work</h1>
+        <h1><a href="#work">Past Work</a></h1>
         {projects.map((project) => (
           <div className="card" key={project.title}>
             <div className="type-container">
