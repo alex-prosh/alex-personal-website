@@ -20,6 +20,7 @@ export const projects: Project[] = [
     type: 'Project',
     year: 2023,
     links: {
+      paper: '/projects/drs-asset-tracker',
       code: 'https://github.com/alex-prosh/DRS-Asset-Tracker-public',
     },
   },
