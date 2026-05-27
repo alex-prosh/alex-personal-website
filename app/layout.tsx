@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Nanum_Myeongjo, Space_Mono } from 'next/font/google'
 import './globals.css'
+import 'katex/dist/katex.min.css'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 
