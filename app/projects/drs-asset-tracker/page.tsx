@@ -184,14 +184,14 @@ export default function DRSPage() {
 
       {/* ── Photos ── */}
       <div style={{ display: 'flex', borderTop: '2px solid var(--crimson)', borderBottom: '2px solid var(--crimson)' }}>
-        <div style={{ width: '50%', position: 'relative', overflow: 'hidden', borderRight: '1px solid var(--crimson)' }}>
-          <img src="/images/drs/hardware1.jpg" alt="Hardware breadboard close-up" style={{ width: '100%', display: 'block', height: 400, objectFit: 'cover' }} />
+        <div style={{ width: '50%', position: 'relative', overflow: 'hidden', borderRight: '1px solid var(--crimson)', aspectRatio: '3/4' }}>
+          <img src="/images/drs/hardware1.jpg" alt="Hardware breadboard close-up" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
           <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(247,243,235,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             ESP32 + M6E Nano on breadboard
           </div>
         </div>
-        <div style={{ width: '50%', position: 'relative', overflow: 'hidden' }}>
-          <img src="/images/drs/hardware2.jpg" alt="Full hardware assembly" style={{ width: '100%', display: 'block', height: 400, objectFit: 'cover' }} />
+        <div style={{ width: '50%', position: 'relative', overflow: 'hidden', aspectRatio: '3/4' }}>
+          <img src="/images/drs/hardware2.jpg" alt="Full hardware assembly" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
           <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(247,243,235,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             Full assembly with power supply
           </div>
