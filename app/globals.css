@@ -227,9 +227,9 @@ nav { width: 100%; }
   padding: 48px 48px 24px 48px;
 }
 
-.card:nth-of-type(3n+1) { background-color: #243652; }
-.card:nth-of-type(3n+2) { background-color: #1A2E48; }
-.card:nth-of-type(3n)   { background-color: #3A5470; }
+.card:nth-of-type(3n+1) { background-color: #1E3254; }
+.card:nth-of-type(3n+2) { background-color: #0C1A2E; }
+.card:nth-of-type(3n)   { background-color: #3D6080; }
 
 .card .rule {
   width: 100%;
