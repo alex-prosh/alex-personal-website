@@ -15,7 +15,7 @@ export default function ContactPage() {
           <p>
             Feel free to reach out at{' '}
             <ObfuscatedEmail user="pro" domain="berkeley.edu" style={{ color: 'var(--gold)', fontWeight: 700 }} />.
-            I typically reply within a few days. I am open to research
+            I typically reply within 24 hours. I am open to research
             discussions, collaboration, and opportunities in robotics and AI.
           </p>
         </div>
