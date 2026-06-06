@@ -13,11 +13,10 @@
   --card-2: #0F1825;
   --card-3: #2E4057;
   --img-gradient:
-    radial-gradient(ellipse at 18% 28%, #5FAACC 0%, transparent 52%),
-    radial-gradient(ellipse at 78% 18%, #4A98BF 0%, transparent 48%),
-    radial-gradient(ellipse at 52% 78%, #3C8CB5 0%, transparent 50%),
-    radial-gradient(ellipse at 88% 68%, #1A5A9E 0%, transparent 44%),
-    #0F468E;
+    radial-gradient(ellipse 110% 90% at 50% 38%, #0A3370 0%, #0F468E 22%, #2272A8 46%, transparent 72%),
+    radial-gradient(ellipse 60% 50% at 32% 55%, #1A5898 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 72% 62%, #1C5EA0 0%, transparent 52%),
+    #5FAACC;
 }
 
 * { box-sizing: border-box; }
