@@ -48,8 +48,9 @@ function Code({ src, label }: { src: string; label?: string }) {
 function Fig({ src, alt, caption }: { src: string; alt: string; caption: React.ReactNode }) {
   return (
     <div>
-      <div style={{ border: '1px solid rgba(22,36,58,0.15)', overflow: 'hidden', marginBottom: 14 }}>
+      <div style={{ border: '1px solid rgba(22,36,58,0.15)', overflow: 'hidden', marginBottom: 14, position: 'relative' }}>
         <img src={src} alt={alt} style={{ width: '100%', display: 'block' }} />
+        <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
       </div>
       <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--gold)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 6 }}>
         {alt}

@@ -60,6 +60,7 @@ export default function DRSPage() {
           alt=""
           style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center 40%' }}
         />
+        <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(12,24,40,0.82) 0%, rgba(12,24,40,0.4) 55%, transparent 100%)' }} />
         <div style={{ position: 'absolute', bottom: 44, left: 'min(14%, 200px)', color: '#F7F3EB', maxWidth: 520 }}>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '0.14em', textTransform: 'uppercase', opacity: 0.6, marginBottom: 14 }}>
@@ -186,12 +187,14 @@ export default function DRSPage() {
       <div style={{ display: 'flex', borderTop: '2px solid var(--crimson)', borderBottom: '2px solid var(--crimson)' }}>
         <div style={{ width: '50%', position: 'relative', overflow: 'hidden', borderRight: '1px solid var(--crimson)', aspectRatio: '3/4' }}>
           <img src="/images/drs/hardware1.jpg" alt="Hardware breadboard close-up" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
+          <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
           <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(247,243,235,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             ESP32 + M6E Nano on breadboard
           </div>
         </div>
         <div style={{ width: '50%', position: 'relative', overflow: 'hidden', aspectRatio: '3/4' }}>
           <img src="/images/drs/hardware2.jpg" alt="Full hardware assembly" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
+          <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
           <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(247,243,235,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             Full assembly with power supply
           </div>
