@@ -115,7 +115,7 @@ export default function MatrixExponentsPage() {
       </div>
 
       {/* The ODE */}
-      <div style={{ background: '#DEE8EE', borderTop: '1px solid rgba(22,36,58,0.12)', borderBottom: '1px solid rgba(22,36,58,0.12)', padding: '64px min(14%, 200px)' }}>
+      <div style={{ background: '#EBF0F3', borderTop: '1px solid rgba(22,36,58,0.12)', borderBottom: '1px solid rgba(22,36,58,0.12)', padding: '64px min(14%, 200px)' }}>
         <SectionLabel>The Problem</SectionLabel>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64 }}>
           <div>
@@ -216,7 +216,7 @@ export default function MatrixExponentsPage() {
       </div>
 
       {/* Decomp steps figure */}
-      <div style={{ background: '#DEE8EE', borderTop: '1px solid rgba(22,36,58,0.12)', borderBottom: '1px solid rgba(22,36,58,0.12)', padding: '64px min(14%, 200px)' }}>
+      <div style={{ background: '#EBF0F3', borderTop: '1px solid rgba(22,36,58,0.12)', borderBottom: '1px solid rgba(22,36,58,0.12)', padding: '64px min(14%, 200px)' }}>
         <SectionLabel>Three-Step Computation</SectionLabel>
         <div style={{ marginBottom: 48 }}>
           <Fig
@@ -365,7 +365,7 @@ export default function MatrixExponentsPage() {
       </div>
 
       {/* Euler's Method */}
-      <div style={{ background: '#DEE8EE', borderTop: '1px solid rgba(22,36,58,0.12)', borderBottom: '1px solid rgba(22,36,58,0.12)', padding: '64px min(14%, 200px)' }}>
+      <div style={{ background: '#EBF0F3', borderTop: '1px solid rgba(22,36,58,0.12)', borderBottom: '1px solid rgba(22,36,58,0.12)', padding: '64px min(14%, 200px)' }}>
         <SectionLabel>{"Euler's Method"}</SectionLabel>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64 }}>
           <div>

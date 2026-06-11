@@ -62,11 +62,11 @@ export default function DRSPage() {
         />
         <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(12,24,40,0.82) 0%, rgba(12,24,40,0.4) 55%, transparent 100%)' }} />
-        <div style={{ position: 'absolute', bottom: 44, left: 'min(14%, 200px)', color: '#DEE8EE', maxWidth: 520 }}>
+        <div style={{ position: 'absolute', bottom: 44, left: 'min(14%, 200px)', color: '#EBF0F3', maxWidth: 520 }}>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '0.14em', textTransform: 'uppercase', opacity: 0.6, marginBottom: 14 }}>
             Systems Project · 2023
           </div>
-          <h1 style={{ fontSize: 52, fontWeight: 800, margin: '0 0 18px', lineHeight: 1.05 }}>
+          <h1 style={{ fontSize: 52, fontWeight: 800, margin: '0 0 18px', lineHeight: 1.05, color: 'inherit' }}>
             DRS Asset<br />Tracker
           </h1>
           <p style={{ fontSize: 15, opacity: 0.75, margin: 0, lineHeight: 1.6, fontFamily: 'var(--font-mono)' }}>
@@ -114,7 +114,7 @@ export default function DRSPage() {
       </div>
 
       {/* ── Architecture Pipeline ── */}
-      <div style={{ borderTop: '1px solid rgba(22,36,58,0.15)', borderBottom: '1px solid rgba(22,36,58,0.15)', background: '#DEE8EE', padding: '56px min(14%, 200px)' }}>
+      <div style={{ borderTop: '1px solid rgba(22,36,58,0.15)', borderBottom: '1px solid rgba(22,36,58,0.15)', background: '#EBF0F3', padding: '56px min(14%, 200px)' }}>
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 40 }}>
           System Architecture
         </div>
@@ -151,7 +151,7 @@ export default function DRSPage() {
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: 12, color: 'var(--gold)', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                 Problem
               </div>
-              <div style={{ fontSize: 17, fontWeight: 800, marginBottom: 14 }}>{d.challenge}</div>
+              <div style={{ fontSize: 17, fontWeight: 800, marginBottom: 14, color: 'var(--title)' }}>{d.challenge}</div>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: 12, color: 'var(--gold)', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                 Solution
               </div>
@@ -162,7 +162,7 @@ export default function DRSPage() {
       </div>
 
       {/* ── Timeline ── */}
-      <div style={{ borderTop: '1px solid rgba(22,36,58,0.15)', padding: '72px min(14%, 200px)', background: '#DEE8EE' }}>
+      <div style={{ borderTop: '1px solid rgba(22,36,58,0.15)', padding: '72px min(14%, 200px)', background: '#EBF0F3' }}>
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 48 }}>
           Development Timeline
         </div>
@@ -175,7 +175,7 @@ export default function DRSPage() {
               </div>
               <div style={{ flexShrink: 0, width: 10, height: 10, borderRadius: '50%', background: 'var(--crimson)', marginTop: 5, position: 'relative', zIndex: 1 }} />
               <div style={{ maxWidth: 580 }}>
-                <div style={{ fontSize: 18, fontWeight: 800, marginBottom: 8 }}>{item.title}</div>
+                <div style={{ fontSize: 18, fontWeight: 800, marginBottom: 8, color: 'var(--title)' }}>{item.title}</div>
                 <div style={{ fontSize: 14, opacity: 0.75, lineHeight: 1.7 }}>{item.description}</div>
               </div>
             </div>
@@ -188,14 +188,14 @@ export default function DRSPage() {
         <div style={{ width: '50%', position: 'relative', overflow: 'hidden', borderRight: '1px solid var(--crimson)', aspectRatio: '3/4' }}>
           <img src="/images/drs/hardware1.jpg" alt="Hardware breadboard close-up" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
-          <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(222,232,238,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+          <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(235,240,243,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             ESP32 + M6E Nano on breadboard
           </div>
         </div>
         <div style={{ width: '50%', position: 'relative', overflow: 'hidden', aspectRatio: '3/4' }}>
           <img src="/images/drs/hardware2.jpg" alt="Full hardware assembly" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
-          <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(222,232,238,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+          <div style={{ position: 'absolute', bottom: 12, left: 16, fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(235,240,243,0.7)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             Full assembly with power supply
           </div>
         </div>
@@ -204,7 +204,7 @@ export default function DRSPage() {
       {/* ── GitHub CTA ── */}
       <div style={{ padding: '64px min(14%, 200px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '2px solid var(--crimson)' }}>
         <div>
-          <div style={{ fontSize: 28, fontWeight: 800, marginBottom: 8 }}>Explore the source</div>
+          <div style={{ fontSize: 28, fontWeight: 800, marginBottom: 8, color: 'var(--title)' }}>Explore the source</div>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: 13, opacity: 0.6 }}>
             Firmware, Flutter app, Firebase schema, 3D print files
           </div>
