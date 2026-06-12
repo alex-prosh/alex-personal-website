@@ -205,7 +205,7 @@ export default function DRSPage() {
       <div style={{ padding: '64px min(14%, 200px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '2px solid var(--crimson)' }}>
         <div>
           <div style={{ fontSize: 28, fontWeight: 800, marginBottom: 8, color: 'var(--title)' }}>Explore the source</div>
-          <div style={{ fontFamily: 'var(--font-mono)', fontSize: 13, opacity: 0.6 }}>
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: 13, color: 'var(--subtitle)' }}>
             Firmware, Flutter app, Firebase schema, 3D print files
           </div>
         </div>

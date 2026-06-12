@@ -38,7 +38,7 @@ export default function BlogPage() {
                   {p.tag} · {p.year}
                 </div>
                 <div style={{ fontSize: 24, fontWeight: 800, marginBottom: 10, color: 'var(--title)' }}>{p.title}</div>
-                <div style={{ fontSize: 14, opacity: 0.7, lineHeight: 1.6, maxWidth: 560 }}>{p.subtitle}</div>
+                <div style={{ fontSize: 14, color: 'var(--subtitle)', lineHeight: 1.6, maxWidth: 560 }}>{p.subtitle}</div>
               </div>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: 13, color: 'var(--gold)', fontWeight: 700, flexShrink: 0 }}>
                 Read →

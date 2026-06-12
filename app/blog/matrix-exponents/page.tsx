@@ -72,7 +72,7 @@ export default function MatrixExponentsPage() {
         <h1 style={{ fontSize: 52, fontWeight: 800, margin: '0 0 20px', lineHeight: 1.05, maxWidth: 720 }}>
           Exponentiation<br />by Matrices
         </h1>
-        <p style={{ fontFamily: 'var(--font-mono)', fontSize: 14, opacity: 0.6, margin: 0, maxWidth: 580, lineHeight: 1.7 }}>
+        <p style={{ fontFamily: 'var(--font-mono)', fontSize: 14, color: 'var(--subtitle)', margin: 0, maxWidth: 580, lineHeight: 1.7 }}>
           How eigendecomposition turns a matrix differential equation into a closed-form solution,
           and what phase portraits reveal about long-run behavior. Advanced Topics Math, 2023.
         </p>
