@@ -25,7 +25,7 @@ export default function BlogPage() {
           <Link key={i} href={p.href} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <div
               style={{
-                borderTop: '2px solid var(--crimson)',
+                borderTop: '1px solid var(--crimson)',
                 padding: '28px 0',
                 display: 'grid',
                 gridTemplateColumns: '1fr auto',

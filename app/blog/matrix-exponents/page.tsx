@@ -65,7 +65,7 @@ export default function MatrixExponentsPage() {
     <div style={{ background: 'var(--bg)', color: 'var(--crimson)' }}>
 
       {/* Header */}
-      <div style={{ borderBottom: '2px solid var(--crimson)', padding: '56px min(14%, 200px) 48px' }}>
+      <div style={{ borderBottom: '1px solid var(--crimson)', padding: '56px min(14%, 200px) 48px' }}>
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 20 }}>
           Mathematics · 2023
         </div>
@@ -455,7 +455,7 @@ A = make_A([[1, 0], [0, 1]], [-1, 2])
       </div>
 
       {/* Takeaway */}
-      <div style={{ borderTop: '2px solid var(--crimson)', borderBottom: '2px solid var(--crimson)', padding: '64px min(14%, 200px)', background: 'var(--crimson)', color: 'var(--bg)' }}>
+      <div style={{ borderTop: '1px solid var(--crimson)', borderBottom: '1px solid var(--crimson)', padding: '64px min(14%, 200px)', background: 'var(--crimson)', color: 'var(--bg)' }}>
         <SectionLabel>Key Takeaway</SectionLabel>
         <p style={{ fontSize: 21, lineHeight: 1.8, maxWidth: 820, margin: '0 0 32px' }}>
           The solution to <M tex="\dot{x} = Ax" /> is entirely determined by the eigenstructure

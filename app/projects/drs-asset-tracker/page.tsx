@@ -54,7 +54,7 @@ export default function DRSPage() {
     <div style={{ background: 'var(--bg)', color: 'var(--crimson)' }}>
 
       {/* ── Hero ── */}
-      <div style={{ position: 'relative', width: '100%', height: '56vh', minHeight: 340, overflow: 'hidden', borderBottom: '2px solid var(--crimson)' }}>
+      <div style={{ position: 'relative', width: '100%', height: '56vh', minHeight: 340, overflow: 'hidden', borderBottom: '1px solid var(--crimson)' }}>
         <img
           src="/images/drs/hardware2.jpg"
           alt=""
@@ -147,7 +147,7 @@ export default function DRSPage() {
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }}>
           {decisions.map((d, i) => (
-            <div key={i} style={{ borderTop: '2px solid var(--crimson)', paddingTop: 20 }}>
+            <div key={i} style={{ borderTop: '1px solid var(--crimson)', paddingTop: 20 }}>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: 12, color: 'var(--gold)', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                 Problem
               </div>
@@ -184,7 +184,7 @@ export default function DRSPage() {
       </div>
 
       {/* ── Photos ── */}
-      <div style={{ display: 'flex', borderTop: '2px solid var(--crimson)', borderBottom: '2px solid var(--crimson)' }}>
+      <div style={{ display: 'flex', borderTop: '1px solid var(--crimson)', borderBottom: '1px solid var(--crimson)' }}>
         <div style={{ width: '50%', position: 'relative', overflow: 'hidden', borderRight: '1px solid var(--crimson)', aspectRatio: '3/4' }}>
           <img src="/images/drs/hardware1.jpg" alt="Hardware breadboard close-up" style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'var(--img-gradient)', mixBlendMode: 'screen', pointerEvents: 'none' }} />
@@ -202,7 +202,7 @@ export default function DRSPage() {
       </div>
 
       {/* ── GitHub CTA ── */}
-      <div style={{ padding: '64px min(14%, 200px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '2px solid var(--crimson)' }}>
+      <div style={{ padding: '64px min(14%, 200px)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid var(--crimson)' }}>
         <div>
           <div style={{ fontSize: 28, fontWeight: 800, marginBottom: 8, color: 'var(--title)' }}>Explore the source</div>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: 13, color: 'var(--subtitle)' }}>

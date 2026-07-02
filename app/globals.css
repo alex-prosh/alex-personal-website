@@ -46,7 +46,7 @@ nav { width: 100%; }
   height: 96px;
   font-size: 24px;
   background-color: #F9F9F9;
-  border-bottom: 2px solid var(--crimson);
+  border-bottom: 1px solid var(--crimson);
   display: flex;
   align-items: center;
   padding-left: 24px;
@@ -82,7 +82,7 @@ nav { width: 100%; }
   height: 36px;
   font-size: 19px;
   background-color: #F9F9F9;
-  border-bottom: 2px solid var(--crimson);
+  border-bottom: 1px solid var(--crimson);
   font-family: var(--font-mono), monospace;
   display: flex;
   align-items: center;
@@ -151,22 +151,11 @@ nav { width: 100%; }
 /* ── Splash image ── */
 #splash-image {
   width: 100%;
-  border-bottom: 2px solid var(--crimson);
+  border-bottom: 1px solid var(--crimson);
   overflow: hidden;
   max-height: 580px;
   box-shadow: inset 0 12px 24px rgba(0,0,0,0.18);
-  position: relative;
 }
-
-#splash-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--img-gradient);
-  mix-blend-mode: screen;
-  pointer-events: none;
-}
-
 
 #splash-image img {
   width: 100%;
@@ -184,7 +173,7 @@ nav { width: 100%; }
   border-bottom: 1px solid var(--crimson);
   display: flex;
   align-items: center;
-  color: var(--crimson);
+  color: var(--subtitle);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -197,7 +186,8 @@ nav { width: 100%; }
   font-size: 36px;
   width: 100%;
   background-color: #F9F9F9;
-  border-bottom: 2px solid var(--crimson);
+  border-bottom: 1px solid var(--crimson);
+  color: var(--title);
 }
 
 #bio-lower p {
@@ -376,7 +366,7 @@ nav { width: 100%; }
   height: 32px;
   font-family: var(--font-mono), monospace;
   background-color: #F9F9F9;
-  border-top: 2px solid var(--crimson);
+  border-top: 1px solid var(--crimson);
   border-bottom: 1px solid var(--crimson);
   display: flex;
   align-items: center;
@@ -393,7 +383,7 @@ nav { width: 100%; }
   font-size: 24px;
   width: 100%;
   background-color: #F9F9F9;
-  border-bottom: 2px solid var(--crimson);
+  border-bottom: 1px solid var(--crimson);
   padding: 12px 0;
 }
 
@@ -405,7 +395,7 @@ nav { width: 100%; }
 footer {
   background-color: var(--crimson-dark);
   color: var(--bg);
-  border-top: 2px solid var(--crimson);
+  border-top: 1px solid var(--crimson);
   font-family: var(--font-mono), monospace;
   font-size: 14px;
   padding: 16px min(14%, 200px);
