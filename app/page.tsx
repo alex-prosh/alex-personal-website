@@ -5,7 +5,7 @@ export default function HomePage() {
     <>
       {/* Splash */}
       <div id="splash-image">
-        <img src="/images/splash.png?v=2" alt="" />
+        <img src="/images/splash.png?v=3" alt="" />
       </div>
 
       {/* Bio */}
@@ -18,9 +18,8 @@ export default function HomePage() {
             I&apos;m a grad student at UC Berkeley, advised by{' '}
             <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
             I work on robot foundation models and the question of what makes embodied systems intelligent.
-            Incoming Research Scientist at{' '}
-            <a href="https://www.gsi.company" target="_blank" rel="noopener noreferrer">Grounded Superintelligence</a>{' '}
-            this summer.
+            Research Scientist at{' '}
+            <a href="https://www.gsi.company" target="_blank" rel="noopener noreferrer">Grounded Superintelligence</a>.
           </p>
         </div>
       </div>
