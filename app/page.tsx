@@ -15,7 +15,9 @@ export default function HomePage() {
         </div>
         <div id="bio-lower">
           <p>
-            I&apos;m a grad student at UC Berkeley, advised by{' '}
+            I&apos;m a grad student and{' '}
+            <a href="https://engineering.berkeley.edu/news/2026/09/five-students-honored-as-siebel-scholars-2/" target="_blank" rel="noopener noreferrer">Siebel Scholar</a>{' '}
+            at UC Berkeley, advised by{' '}
             <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>.
             I work on robot foundation models and the question of what makes embodied systems intelligent.
             Research Scientist at{' '}
