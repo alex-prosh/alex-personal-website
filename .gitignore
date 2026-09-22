@@ -11,3 +11,5 @@ yarn-error.log*
 .pnp.js
 
 .vscode/*
+# internal page media lives in object storage, not git
+public/internal-media/
